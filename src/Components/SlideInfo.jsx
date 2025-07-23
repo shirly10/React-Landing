@@ -21,7 +21,7 @@ function SlideInfo() {
     const topic = topics[currentTopic];
 
     return (
-        <div className="absolute left-5 right-5 md:left-10 md:right-auto top-1/2 -translate-y-1/2 text-white max-w-lg space-y-4 p-4 bg-black/30 md:bg-transparent rounded-md md:rounded-none">
+        <div className="absolute left-5 right-5 md:left-10 md:right-auto top-1/2 -translate-y-1/2 text-white max-w-lg space-y-4 p-4 bg-black/30 md:bg-transparent rounded-md md:rounded-none z-20">
             <h2 className="text-xl md:text-2xl font-bold uppercase">{topic.nameC}</h2>
             <h3 className="italic text-base md:text-lg opacity-80">{topic.nameS}</h3>
             <p className="text-sm md:text-base leading-relaxed">{topic.description}</p>

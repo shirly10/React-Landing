@@ -4,7 +4,7 @@ import datos from "../data/info.js";
 const Enlace = ({children, to}) => {
     return(
         <li>
-            <a href={to} className="flex items-center 8 text-gray-50 px-2 h-10 font-bold w-72 bg-black/30 hover:bg-black/50 transition-colors" >{children}</a>
+            <a href={to} className="flex items-center 8 text-gray-50 px-2 h-10 font-bold w-72 bg-black/90 hover:bg-black/50 transition-colors" >{children}</a>
         </li>
     )
 }   
